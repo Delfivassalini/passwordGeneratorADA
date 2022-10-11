@@ -1,0 +1,128 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result {
+    position: relative;
+    top: 13px;
+}
+
+.result_copy_update{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copy_update_imgs img {
+    position: relative;
+    right: 70px;
+    top: 10px;
+}
+
+.password {
+    width: 40%;
+    height: 50px;
+    border: none;
+    border-radius: 15%;
+    background-color: floralwhite;
+    margin-left: 55px;
+}
+
+.password img {
+    position: relative;
+    left: 40%;
+    top: 20%;
+}
+
+.option h2 {
+    text-align: left;
+}
+
+
+.settings{
+    color: floralwhite;
+    font-weight: initial;
+    text-decoration-line: underline;
+}
+
+.all_options {
+    display: flex;
+    justify-content: center;
+    background-color: floralwhite;
+    width: 45%;
+    border-radius: 15%;
+    padding-bottom: 15px;
+}
+
+.amount_options {
+    display: flex;
+    margin-right: 30px
+}
+
+.amount_options p {
+    margin: 10px;
+}
+
+.reading_options {
+    display: flex;
+    margin-right: 30px;
+}
+
+.reading_options p {
+    margin: 10px;
+}
+
+.characters_options {
+    display: flex;
+}
+
+.characters_options p {
+    margin: 10px;
+}
+
+button {
+    margin-top: 25px;
+    width: 125px;
+    height: 50px;
+    border-radius: 15%;
+    background-color: floralwhite;
+    border-color: floralwhite;
+    border: 0;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (max-width: 800px) {
+    .password {
+        width: 100%;
+    }
+
+    .copy_update_imgs {
+        display: flex;
+        width: 35px;
+        height: 25px;
+    }
+
+    .all_options{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        border-radius: 0
+    }
+
+    .option h2 {
+        text-align: center;
+    }
+
+}
